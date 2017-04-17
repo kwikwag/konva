@@ -506,7 +506,7 @@ declare module Konva {
 
     class Canvas {
         constructor(CanvasConfig: CanvasConfig);
-        getContext(): CanvasRenderingContext2D;
+        getContext(): Context;
         getHeight(): number;
         getWidth(): number;
         getPixelRatio(): number;
